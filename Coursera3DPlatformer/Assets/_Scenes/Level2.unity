@@ -6759,10 +6759,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3144094035666324280, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4052851032985480529, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6807,17 +6803,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5107170704335509353, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5595284012224520914, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
       propertyPath: m_Name
       value: LevelManagementAssets
-      objectReference: {fileID: 0}
-    - target: {fileID: 9127877049479995527, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76337d9c6c7c2e7438f0e2ba152337ad, type: 3}
