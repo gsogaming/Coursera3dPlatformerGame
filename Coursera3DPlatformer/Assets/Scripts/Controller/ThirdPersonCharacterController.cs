@@ -258,7 +258,7 @@ public class ThirdPersonCharacterController : MonoBehaviour
                 }
                 playerState = PlayerState.DoubleJumping;
             }
-            else if (moveDirection.y < -0.5f)
+            else if (moveDirection.y < -0.1f)
             {
                 bounced = false;
                 landed = false;
