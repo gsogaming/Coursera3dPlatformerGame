@@ -22827,6 +22827,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1043106522454857283, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: yOffset
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1043106524462670505, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
       propertyPath: m_Name
       value: Engineer
