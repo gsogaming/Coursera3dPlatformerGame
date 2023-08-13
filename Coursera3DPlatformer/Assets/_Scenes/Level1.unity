@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276807, g: 0.21589197, b: 0.29782572, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667555, g: 0.48427176, b: 0.5645241, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22827,9 +22827,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1313279348, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: m_CameraType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043106522454857277, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1043106522454857283, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
       propertyPath: yOffset
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043106522608133075, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: gravity
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043106523561299443, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043106523561299447, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043106523561299447, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
+      propertyPath: maximumBackWardMovespeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1043106524462670505, guid: 9a331c9e15b754348bd309ffaa589ede, type: 3}
       propertyPath: m_Name

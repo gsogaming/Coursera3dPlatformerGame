@@ -450,7 +450,7 @@ public class ThirdPersonCamera : MonoBehaviour
         }
 
         // RayCast logic for player visibility 
-        //RaycastForPlayerVisibility();
+        RaycastForPlayerVisibility();
     }
 
     [Header("Linear interpolation smoothing")]
