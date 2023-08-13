@@ -18,11 +18,13 @@ public class ThirdPersonCharacterController : MonoBehaviour
     private Health playerHealth;
 
     // Enum to handle the player's state
-    public enum PlayerState { Idle, Moving, Jumping, DoubleJumping, Falling, Dead };
+    public enum PlayerState { Idle, Moving, Jumping, DoubleJumping, Falling, Dead};
+    public enum PlayerEquipState {NoWeapon, Gun };
 
     [Header("State Information")]
     [Tooltip("The state the player controller is currently in")]
     public PlayerState playerState = PlayerState.Idle;
+    public PlayerEquipState equipState = PlayerEquipState.NoWeapon;
 
     [Header("Effects settings")]
     [Tooltip("The effect to create when jumping")]
@@ -220,9 +222,9 @@ public class ThirdPersonCharacterController : MonoBehaviour
             else if (moveDirection == Vector3.zero)
             {
                 playerState = PlayerState.Idle;
-            }
+            }            
             else
-            {
+            {                
                 playerState = PlayerState.Moving;
             }
 

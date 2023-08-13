@@ -128,7 +128,7 @@ public class ThirdPersonCamera : MonoBehaviour
         FindObjectOfType<CameraRotationHelper>().FollowPlayerTransformLikeAChild();
         FaceCharacter();
         CentralizedControl(inputManager.horizontalLookAxis, inputManager.verticalLookAxis);
-        DetermineCameraPositionAdjustments();
+        //DetermineCameraPositionAdjustments();
     }
 
     /// <summary>
@@ -363,7 +363,7 @@ public class ThirdPersonCamera : MonoBehaviour
         }
         else
         {
-            // Raycast from the camera to move the camera in front of objects if needed
+            //// Raycast from the camera to move the camera in front of objects if needed
             RaycastHit centerCameraHit = new RaycastHit();
             Vector3 rayCastDirection = (transform.position - lookAt.transform.position).normalized;
             Physics.Raycast(lookAt.transform.position, rayCastDirection, out centerCameraHit, appliedMaximumDistanceAway);
@@ -374,7 +374,7 @@ public class ThirdPersonCamera : MonoBehaviour
             else
             {
                 transform.position = Vector3.Lerp(transform.position, lookAtPosition + (directionToCameraFromLookAt * appliedMaximumDistanceAway), Time.deltaTime * smoothing);
-            }       
+            }
         }
     }
 

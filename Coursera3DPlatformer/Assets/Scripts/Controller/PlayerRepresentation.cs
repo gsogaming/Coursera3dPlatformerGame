@@ -78,7 +78,9 @@ public class PlayerRepresentation : MonoBehaviour {
             Quaternion rotation = Quaternion.LookRotation(movementDirection, Vector3.up);
             rotation = Quaternion.Euler(rotation.eulerAngles.x, playerCharacterController.transform.rotation.eulerAngles.y + rotation.eulerAngles.y, rotation.eulerAngles.z);
             transform.rotation = rotation;
-        }
+        }       
+
+
     }
 
     [Tooltip("A 'Parent' object to follow as if this was a child without rotation following")]
